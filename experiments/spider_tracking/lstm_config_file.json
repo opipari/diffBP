@@ -1,0 +1,20 @@
+{
+	"data_dir": "./data/spider/",
+	"data_categories": ["dynamic_dynamic_noise", "dynamic_static_noise", "dynamic_dynamic_extreme_noise", "dynamic_static_extreme_noise", "dynamic_no_noise"],
+	"num_seqs": 2048,
+	"window_size": 20,
+	"input_dim": 3,
+	"enc_hidden_feats_tot": 48,
+	"hidden_dim": 64,
+	"layer_dim": 2,
+	"output_dim": 2,
+	"num_joints": 7,
+	"lr": 0.0001,
+	"gamma": 0.995,
+	"num_epochs": 200,
+	"train_batch_size": 6,
+	"test_batch_size": 5,
+	"use_augmentation": true,
+	"device": "cuda:0",
+	"model_folder": "./experiments/spider_tracking/lstm_models/"
+}

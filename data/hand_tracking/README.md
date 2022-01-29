@@ -1,0 +1,1 @@
+Note that the `./skipped.txt` file lists data sequences which caused I/O errors during development and so were isolated and excluded from testing and training.

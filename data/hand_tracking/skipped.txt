@@ -1,0 +1,6 @@
+train:
+F-PHAB/Video_files/Subject_3/drink_mug/2
+
+test:
+F-PHAB/Video_files/Subject_6/open_soda_can/1
+F-PHAB/Video_files/Subject_6/drink_mug/1

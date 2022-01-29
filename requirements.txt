@@ -1,0 +1,9 @@
+# Pytorch wheels
+https://download.pytorch.org/whl/cu102/torch-1.10.2%2Bcu102-cp37-cp37m-linux_x86_64.whl
+https://download.pytorch.org/whl/cu102/torchvision-0.11.3%2Bcu102-cp37-cp37m-linux_x86_64.whl
+
+matplotlib==3.1.1
+Pillow==6.2.1
+scikit-image==0.14.2
+tqdm==4.36.1
+opencv-python==3.4.3.18

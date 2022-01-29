@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+diffBP.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+
+# Pytorch output models
+*epoch_*
+*.png
+*.jpg
+*.json
+*.pdf
+
+# datasets
+data/hand_tracking/*
+data/pendulum/*
+data/spider/*

@@ -1,0 +1,21 @@
+{
+	"data_dir": "./data/pendulum/",
+	"data_categories": ["dynamic", "noise", "no_noise"],
+	"num_seqs": 1024,
+	"window_size": 20,
+	"input_dim": 3,
+	"enc_hidden_feats_tot": 32,
+	"hidden_dim": 46,
+	"layer_dim": 2,
+	"output_dim": 2,
+	"num_joints": 3,
+	"lr": 0.0003,
+	"gamma": 0.97,
+	"num_epochs": 75,
+	"retrain": false,
+	"train_batch_size": 6,
+	"test_batch_size": 5,
+	"use_augmentation": true,
+	"device": "cuda:0",
+	"model_folder": "./experiments/pendulum_tracking/lstm_models"
+}
